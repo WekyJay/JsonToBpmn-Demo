@@ -1,4 +1,4 @@
-package com.lowflow.pojo.condition;
+package cn.wekyjay.test.condition;
 
 import lombok.Data;
 
@@ -9,7 +9,7 @@ import java.util.List;
  */
 @Data
 public class FilterRules {
-    private String operator;
+    private Boolean logic;
     private List<Condition> conditions;
     private List<FilterRules> groups;
 }

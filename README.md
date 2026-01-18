@@ -19,12 +19,13 @@ JsonToBpmnDemo 是一个 Java 项目，旨在将特定格式的 JSON 流程定�
 *   **GatewayNode (网关节点)**: 支持互斥网关（ExclusiveGateway），处理条件分支。
 *   **ConditionNode (条件节点)**: 配合网关使用，解析并生成条件表达式（如 `var:eq`, `var:gt` 等）。
 *   **EndNode (结束节点)**: 流程的终点。
+*   **cNode (抄送节点)**: 发起任务抄送。
 
 ### 后续更新计划
 
 我们将持续完善项目，陆续接入更多类型的节点，以支持更丰富的业务场景：
 
-*   **CcNode (抄送节点)**: 计划中...
+*   **CcNode (抄送节点)**: 已完成✅
 *   **NotifyNode (消息通知节点)**: 计划中...
 *   **TimerNode (定时节点)**: 计划中...
 

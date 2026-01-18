@@ -1,4 +1,4 @@
-package com.lowflow.pojo.enums;
+package cn.wekyjay.test.enums;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 import lombok.Getter;
