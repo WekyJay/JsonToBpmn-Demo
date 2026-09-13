@@ -1,6 +1,6 @@
-package cn.wekyjay.test.nodes;
+package cn.wekyjay.bpmn.nodes;
 
-import cn.wekyjay.test.Node;
+import cn.wekyjay.bpmn.Node;
 import org.flowable.bpmn.model.FlowElement;
 import org.flowable.bpmn.model.SequenceFlow;
 import org.flowable.bpmn.model.StartEvent;

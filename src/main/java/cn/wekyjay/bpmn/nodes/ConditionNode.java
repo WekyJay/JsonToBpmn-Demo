@@ -1,7 +1,7 @@
-package cn.wekyjay.test.nodes;
+package cn.wekyjay.bpmn.nodes;
 
-import cn.wekyjay.test.Node;
-import cn.wekyjay.test.condition.FilterRules;
+import cn.wekyjay.bpmn.Node;
+import cn.wekyjay.bpmn.condition.FilterRules;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import com.fasterxml.jackson.core.JsonProcessingException;

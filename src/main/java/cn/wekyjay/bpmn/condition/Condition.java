@@ -1,4 +1,4 @@
-package cn.wekyjay.test.condition;
+package cn.wekyjay.bpmn.condition;
 
 import lombok.Data;
 

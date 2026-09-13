@@ -1,4 +1,4 @@
-package cn.wekyjay.test;
+package cn.wekyjay.bpmn;
 
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.ser.std.ArraySerializerBase;
 import com.fasterxml.jackson.databind.ser.std.ObjectArraySerializer;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 
-import cn.wekyjay.test.nodes.EndNode;
+import cn.wekyjay.bpmn.nodes.EndNode;
 import lombok.Data;
 import org.flowable.bpmn.BpmnAutoLayout;
 import org.flowable.bpmn.model.BpmnModel;

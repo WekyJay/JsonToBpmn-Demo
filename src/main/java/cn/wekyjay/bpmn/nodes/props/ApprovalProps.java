@@ -1,4 +1,4 @@
-package cn.wekyjay.test.nodes.props;
+package cn.wekyjay.bpmn.nodes.props;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

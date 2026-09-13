@@ -1,4 +1,4 @@
-package cn.wekyjay.test.enums;
+package cn.wekyjay.bpmn.enums;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 import lombok.AllArgsConstructor;

@@ -1,7 +1,7 @@
-package cn.wekyjay.test.nodes;
+package cn.wekyjay.bpmn.nodes;
 
-import cn.wekyjay.test.Node;
-import cn.wekyjay.test.ProcessModel;
+import cn.wekyjay.bpmn.Node;
+import cn.wekyjay.bpmn.ProcessModel;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

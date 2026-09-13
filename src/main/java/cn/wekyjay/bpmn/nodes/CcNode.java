@@ -1,6 +1,6 @@
-package cn.wekyjay.test.nodes;
+package cn.wekyjay.bpmn.nodes;
 
-import cn.wekyjay.test.Node;
+import cn.wekyjay.bpmn.Node;
 import org.flowable.bpmn.model.FlowElement;
 import org.flowable.bpmn.model.ImplementationType;
 import org.flowable.bpmn.model.SequenceFlow;
@@ -8,7 +8,6 @@ import org.flowable.bpmn.model.ServiceTask;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 /**
  * @Description: Cc抄送节点

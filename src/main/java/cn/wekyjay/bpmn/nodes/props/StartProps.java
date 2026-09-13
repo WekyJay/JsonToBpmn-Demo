@@ -1,4 +1,4 @@
-package cn.wekyjay.test.nodes.props;
+package cn.wekyjay.bpmn.nodes.props;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import lombok.Data;

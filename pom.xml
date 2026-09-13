@@ -4,9 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.wekyjay.test</groupId>
-    <artifactId>JsonToBpmnDemo</artifactId>
+    <groupId>cn.wekyjay</groupId>
+    <artifactId>json-to-bpmn</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>json-to-bpmn</name>
+    <description>Convert frontend workflow-designer JSON definitions into Flowable BPMN 2.0 XML</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -16,19 +18,20 @@
 
    <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.6.6</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.38</version>
+            <scope>provided</scope>
         </dependency>
-       <dependency>
-           <groupId>org.projectlombok</groupId>
-           <artifactId>lombok</artifactId>
-           <version>1.18.38</version>
-       </dependency>
        <dependency>
            <groupId>com.fasterxml.jackson.core</groupId>
            <artifactId>jackson-databind</artifactId>
            <version>2.20.1</version>
+       </dependency>
+       <dependency>
+           <groupId>org.apache.commons</groupId>
+           <artifactId>commons-lang3</artifactId>
+           <version>3.17.0</version>
        </dependency>
        <dependency>
            <groupId>org.flowable</groupId>

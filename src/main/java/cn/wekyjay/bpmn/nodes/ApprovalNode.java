@@ -1,7 +1,7 @@
-package cn.wekyjay.test.nodes;
+package cn.wekyjay.bpmn.nodes;
 
-import cn.wekyjay.test.Node;
-import cn.wekyjay.test.enums.ApprovalMultiEnum;
+import cn.wekyjay.bpmn.Node;
+import cn.wekyjay.bpmn.enums.ApprovalMultiEnum;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;

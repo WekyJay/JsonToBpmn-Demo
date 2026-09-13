@@ -1,7 +1,7 @@
-package cn.wekyjay.test;
+package cn.wekyjay.bpmn;
 
-import cn.wekyjay.test.nodes.*;
-import cn.wekyjay.test.nodes.listeners.NodeListener;
+import cn.wekyjay.bpmn.nodes.*;
+import cn.wekyjay.bpmn.nodes.listeners.NodeListener;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
@@ -14,7 +14,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.flowable.bpmn.model.FlowElement;
 import org.flowable.bpmn.model.FlowableListener;
 import org.flowable.bpmn.model.SequenceFlow;
-import org.springframework.util.CollectionUtils;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -82,7 +81,7 @@ public abstract class Node implements Serializable {
      */
     public List<FlowableListener> buidEventListener() {
         // 过滤空实现
-        if (!CollectionUtils.isEmpty(this.executionListeners)) {
+        if (this.executionListeners != null && !this.executionListeners.isEmpty()) {
             return this.executionListeners.stream().filter(l -> StringUtils.isNotBlank(l.getImplementation())).map(listener -> {
                 // 构建标准执行监听器
                 FlowableListener executionListener = new FlowableListener();

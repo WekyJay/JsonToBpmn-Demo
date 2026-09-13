@@ -1,4 +1,4 @@
-package cn.wekyjay.test.utils;
+package cn.wekyjay.bpmn.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;

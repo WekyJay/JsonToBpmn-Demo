@@ -1,7 +1,7 @@
-package cn.wekyjay.test.nodes;
+package cn.wekyjay.bpmn.nodes;
 
-import cn.wekyjay.test.Node;
-import cn.wekyjay.test.enums.AssigneeTypeEnum;
+import cn.wekyjay.bpmn.Node;
+import cn.wekyjay.bpmn.enums.AssigneeTypeEnum;
 import lombok.*;
 import org.flowable.bpmn.model.FlowElement;
 
