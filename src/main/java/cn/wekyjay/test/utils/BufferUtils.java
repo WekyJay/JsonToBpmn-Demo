@@ -18,7 +18,7 @@ public class BufferUtils {
      * @throws IOException
      */
     public static BufferedOutputStream getBufferedOutputStream(byte[] xmlBytes) throws IOException {
-        BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream("/Users/macbook/文件/Studio/Java/JsonToBpmnDemo/target/test.bpmn20.xml"));
+        BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream("target/test.bpmn20.xml"));
         BufferedInputStream in = new BufferedInputStream(new ByteArrayInputStream(xmlBytes));
         byte[] buffer = new byte[8096];
         while (true) {
